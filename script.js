@@ -1,3 +1,5 @@
+// Hamburger Menu
+
 // Select the hamburger menu and navigation links
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 const navRight = document.querySelector('.nav-right');
@@ -16,3 +18,5 @@ hamburgerMenu.addEventListener('click', function() {
 navRight.addEventListener('click', function() {
     toggleMenu();
 });
+// ------------------------------------------------------------------------
+
