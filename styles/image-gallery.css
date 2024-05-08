@@ -1,0 +1,29 @@
+.image-gallery-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.gallery-container-1 > img, .gallery-container-2 > img {
+    height: 30rem;
+    width: 30rem;
+    padding: 3rem;
+}
+
+.gallery-container-1, .gallery-container-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-container-1 > h3 {
+    padding: 15rem;
+}
+
+.gallery-container-2 > h3 {
+    padding: 10rem;
+}
+
+.gallery-container-2 {
+    align-self: flex-end;
+}

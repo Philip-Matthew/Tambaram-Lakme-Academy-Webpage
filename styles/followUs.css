@@ -2,9 +2,24 @@
 
 @import url(./style.css);
 
+#follow-us {
+    background-image: url(../assets/img/IMG-20240502-WA0004.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    /* padding: 3rem; */
+}
+
+/* .container {
+    margin-top: 2rem;
+} */
+
 .follow-us-bg {
-    background-color: var(--primary-colour);
-    height: 60vh;
+    /* background-color: var(--secondary-colour); */
+    /* background-image: url(../assets/img/IMG-20240502-WA0004.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:45vh;
 }
 
 .follow-us-text {
@@ -12,15 +27,11 @@
     font-family: "Roboto";
     font-size: 25px;
     text-align: center;
+    margin-top: 3rem;
 }
 
 .icons {
     font-size: 3rem;
-}
-
-.final-bg {
-    background-color: var(--secondary-colour);
-    height: 60vh;
 }
 
 .lakme-logo {
@@ -36,6 +47,13 @@
     font-weight: bold;
 }
 
-@media screen and (max-width:770px) {
+@media screen and (max-width: 770px) {
+    .follow-us-text {
+        margin-top: 0.5rem;
+    }
 
+    .lakme-logo {
+        height: 55%;
+        width: 55%;
+    }
 }

@@ -20,3 +20,18 @@ navRight.addEventListener('click', function() {
 });
 // ------------------------------------------------------------------------
 
+// Top banner behaviour
+
+// Get the close button element
+var closeButton = document.getElementById("close-btn");
+
+// Get the offer banner element
+var offerBanner = document.getElementById("offer-banner");
+
+// Add event listener to the close button
+closeButton.addEventListener("click", function() {
+  // Hide the offer banner
+  offerBanner.style.display = "none";
+});
+
+// -----------------------------------------------------------------------------
