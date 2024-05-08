@@ -3,7 +3,7 @@
 @import url(./style.css);
 
 #follow-us {
-    background-image: url(../assets/img/IMG-20240502-WA0004.jpg);
+    /* background-image: url(../assets/img/IMG-20240502-WA0004.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
