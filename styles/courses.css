@@ -7,7 +7,7 @@
 }
 
 .card {
-    background-color: rgba(20, 20, 20, 0.838);
+    background:linear-gradient(135deg, #313131 0%,#000000 100%);
     color: white;
     border-radius: 1rem;
     padding: 1.5rem;
